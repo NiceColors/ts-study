@@ -28,7 +28,3 @@ const player: PlayerInfo = {
   nickname: "Fulaninho",
   level: 1,
 };
-
-
-
-

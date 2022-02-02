@@ -45,7 +45,7 @@ let indefinido: undefined;
 // never (nunca vai retornar)
 
 function nunca(): never {
-    throw new Error("Erro");
+  throw new Error("Erro");
 }
 
 // object (qualquer tipo de objeto)
@@ -53,4 +53,3 @@ function nunca(): never {
 let objeto: object;
 objeto = {};
 objeto = [];
-

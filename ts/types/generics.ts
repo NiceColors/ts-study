@@ -25,10 +25,7 @@ const state = genericState<string>();
 state.setState("teste");
 console.log(state.getState());
 
-
-function genericStateExtends<S extends number | string  = string>() {
-}
+function genericStateExtends<S extends number | string = string>() {}
 
 // <S extends Number | String  = string> o extends permite que a tipagem seja definida como Number ou String e assim não pode ser outro tipo
 // o = permite definir uma tipagem padrão
-
